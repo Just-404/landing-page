@@ -3,6 +3,7 @@ html{
 }
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,6 +15,78 @@ body{
     background-color: #1f2937;
 }
 
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 930;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a, .left p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: 400px;
+}
+.left{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+}
+
+.right-header, .left, .right-header div{
+    width: 450px;
+    height: 250px;
+}
+
+.right-header div{
+    background-color: gray;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+button, h2{
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+button{
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 25px;
+    border: #3882f6;
+    font-size: 15px;
+}
 .footer{
     margin-top: auto;
 }
