@@ -85,7 +85,8 @@ button{
     cursor: pointer;
     padding: 8px 25px;
     border: #3882f6;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .info{
@@ -152,6 +153,43 @@ blockquote{
     font-weight: bold;
     margin-left: 900px;
 }
+
+.contact-section{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container{
+    background-color: #3882f6;
+    min-height: 100px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    color: #e5e7eb;
+}
+.left-contact{
+   display: flex;;
+   flex-direction: column;
+   justify-content: center;
+}
+.left-contact h2, .left-contact p{
+    margin: 0;
+}
+.contact-container button{
+    border: 2px solid #e5e7eb;
+    height: 40px;
+}
 .footer{
     margin-top: auto;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 18px;
 }
